@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>京东</title>
+    <!--引入less文件-->
+    <link rel="stylesheet/less" href="./less/index.less">
+    <script src="./js/less.js"></script>
+    <!--引入轮播图插件-->
+    <link rel="stylesheet" href="./swiper/css/swiper.min.css">
+   
+    <script src="./js/jquery-1.12.4.js"></script>   
+    <!--引入本地JS文件-->
+    <script src="./js/index.js"></script>
+</head>
+<body>
+    <div class="layout">
+        <!--头部区域-->
+        <header id="header">
+            <a class="logo" href="#"></a>
+             <form action="">
+                <i class="magnifying"></i>
+                <input  class="search-box" type="search" placeholder="">
+            </form>
+            <a class="Login" href="#">登录</a>
+        </header>
+        <!--轮播图区域-->
+        <section id="slide">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="">
+                            <img src="./images/l1.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <img src="./images/l2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <img src="./images/l3.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <img src="./images/l4.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <img src="./images/l5.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <img src="./images/l6.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <img src="./images/l7.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <img src="./images/l8.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <!--导航区域-->
+        <nav id="nav">
+            <ul>
+                <li>
+                    <a href="">
+                        <img src="./images/nav0.png" alt="">
+                        <p>分类查询</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./images/nav1.png" alt="">
+                        <p>京东速运</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./images/nav2.png" alt="">
+                        <p>京东超市</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./images/nav3.png" alt="">
+                        <p>个人中心</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./images/nav4.png" alt="">
+                        <p>充值缴费</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./images/nav5.png" alt="">
+                        <p>领劵</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./images/nav6.png" alt="">
+                        <p>赚钱</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./images/nav7.png" alt="">
+                        <p>唯品会</p>
+                    </a>
+                </li>
+                
+            </ul>  
+        </nav>
+        <!--秒杀区域-->
+        <section id="seckill">
+            <div class="seckill-title">
+                <img class="seckill-icon" src="./images/seckill-icon.png" alt="">
+                <span class="seckill-name">掌上秒杀</span>
+                <span class="seckill-time">
+                    <span>2</span>
+                    <span>0</span>
+                    <span>:</span>
+                    <span>1</span>
+                    <span>7</span>
+                    <span>:</span>
+                    <span>1</span>
+                    <span>0</span>
+                </span>
+                <a href="#" class="seckill-more">更多></a>
+            </div>
+            <div class="seckill-content">
+                <ul>
+                    <li>
+                        <a href="">
+                            <img src="./images/nv-fy.jpg" alt="">
+                            <p>¥96</p>
+                            <p><del>¥198</del></p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./images/detail02.jpg" alt="">
+                            <p>¥4268</p>
+                            <p><del>¥5203</del></p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./images/buy-pro1.jpg" alt="">
+                            <p>¥5600</p>
+                            <p><del>¥6888</del></p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+           
+        <!--主体商品-->
+        <main id="products">
+            <!--京东超市-->
+            <div class="jd-market">
+                <div class="jd-product-title">
+                   
+                    <p>京东超市</p>
+                </div>
+                <div class="jd-market-content">
+                    <div class="left">
+                        <a href=""><img src="./images/cp1.jpg" alt=""></a>
+                    </div>
+                    <div class="right">
+                        <a href=""><img src="./images/cp2.jpg" alt=""></a>
+                        <a href=""><img src="./images/cp3.jpg" alt=""></a>
+                    </div>
+                </div>    
+            </div>
+            
+            <!--京东热卖-->
+            <div class="jd-hot">
+                <div class="jd-product-title">
+                    <p>京东热卖</p>
+                </div>
+                <div class="jd-hot-content">
+                    <div class="left">
+                        <a href=""><img src="./images/cp6.jpg" alt=""></a>
+                        <a href=""><img src="./images/cp5.jpg" alt=""></a>
+                    </div>
+                    <div class="right">
+                        <a href=""><img src="./images/cp4.jpg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!--底部区域-->
+        <footer id="footer">
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <img src="https://m.360buyimg.com/mobilecms/jfs/t15145/137/2502885754/3106/de5e0b14/5aa10cd2N46f18ce6.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="category.html">
+                        <img src="https://m.360buyimg.com/mobilecms/jfs/t19183/49/696491919/3763/dec8cceb/5aa10cdbNa9cd0320.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="cart.html">
+                        <img src="https://m.360buyimg.com/mobilecms/jfs/t18583/69/717127328/4407/5e47882b/5aa10ceaN649eec12.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="user.html">
+                        <img src="https://m.360buyimg.com/mobilecms/jfs/t17782/11/2358895717/4684/ad19de7f/5af43af1N04ef5a16.png" alt="">
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+    <script src="./swiper/js/swiper.min.js"></script>    
+</body>
+</html>
